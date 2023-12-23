@@ -1,0 +1,50 @@
+[
+  {
+    "name": "sagar1",
+    "course": "java",
+    "rating": " ★ ★ ★",
+    "review": "fgdfh"
+  },
+  {
+    "name": "sagar2",
+    "course": "python",
+    "rating": "★ ★ ★ ★",
+    "review": "sfdsgs"
+  },
+  {
+    "name": "sagar3",
+    "course": "js",
+    "rating": "★ ★ ",
+    "review": "sgerjyk"
+  },
+  {
+    "name": "sagar4",
+    "course": "react",
+    "rating": "★ ★ ★ ★ ★",
+    "review": "sgykyuegh"
+  },
+  {
+    "name": "sagar4",
+    "course": "react",
+    "rating": "★ ★ ★ ★ ★",
+    "review": "sgykyuegh"
+  },
+  {
+    "name": "sagar4",
+    "course": "react",
+    "rating": "★ ★ ★ ★ ★",
+    "review": "sgykyuegh"
+  },
+  {
+    "name": "sagar4",
+    "course": "react",
+    "rating": "★ ★ ★ ★ ★",
+    "review": "sgykyuegh"
+  },
+  {
+    "name": "sagar4",
+    "course": "react",
+    "rating": "★ ★ ★ ★ ★",
+    "review": "sgykyuegh"
+  }
+]

@@ -1,0 +1,349 @@
+.homeMainCon {
+  background-color: azure;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+/*  ! text on the images */
+.hoverTitleText {
+  position: absolute;
+  top: 10vh;
+  left: 60%;
+  color: white;
+}
+.hoverTitleText h1 {
+  font-size: 50px;
+}
+.hoverTitleText h3 {
+  font-size: 20px;
+      margin-left: 54px;
+}
+.EnrollCon button {
+  position: absolute;
+  top: 60vh;
+  right: 20%;
+  padding: 5px 20px;
+  background-color: #302657;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.EnrollCon button :hover {
+  color: black;
+  background-color: white;
+}
+.waveImg {
+  position: absolute;
+  top: 90vh;
+  width: 100%;
+  height: 20vh;
+}
+/*  ! text on the images end*/
+.HoverImg {
+  width: 100%;
+  height: 110vh;
+  background-color: black;
+  position: absolute;
+  top: 0vh;
+  opacity: 0.4;
+}
+.homeSubCon {
+  position: relative;
+}
+.homeSubCon > img {
+  width: 100%;
+  height: 110vh;
+}
+.homeSubCon h2 {
+  font-size: 50px;
+  position: absolute;
+  animation-name: para;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  top: 45vh;
+  left: 0%;
+  left: 10%;
+  opacity: 0;
+  z-index: 1;
+  color: white;
+}
+@keyframes para {
+  100% {
+    opacity: 1;
+    top: 29vh;
+  }
+}
+.hoverImg {
+  height: 110vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+}
+/* !  card section */
+.BtmCardCon {
+  position: relative;
+  top: 8vh;
+  width: 100%;
+  height: 150vh;
+}
+.BtmCardCon .CardHead {
+  background-color: #f7f7f7;
+  height: 10vh;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-size: 27px;
+  margin-top: 5vh;
+  position: relative;
+  top: -3vh;
+}
+.BtmCardCon > header {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+.BtmCardCon > header h1 {
+  font-size: 50px;
+}
+.BtmCardCon .CardSecBtm {
+  position: relative;
+  top: -3vh;
+  background-color: #f7f7f7;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.BtmCardCon .CardSecBtm div {
+  width: 80%;
+  flex-wrap: wrap;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+#imgCon11:hover {
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+  transition-duration: 600ms;
+}
+.BtmCardCon .BtmCard1 {
+  margin-top: 10vh;
+  width: 21%;
+  height: 52vh;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px 0px #eee;
+  margin-bottom: 40px;
+}
+
+.BtmCardCon .BtmCard1 figure img {
+  width: 100%;
+  height: 25vh;
+  border-radius: 10px;
+}
+.BtmCardCon .BtmCard1 aside {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BtmCardCon .BtmCard1 aside main {
+  height: 20vh;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.BtmCardCon .BtmCard1 aside main h1 a {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.BtmCardCon .BtmCard1 aside main p a {
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+}
+.BtmCard1 button {
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: #302657;
+  color: white;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.BtmCard1 button:hover {
+  box-shadow: 0px 0px 4px 0px #302657;
+  background-color: white;
+  color: black;
+}
+.BtmCard1 header {
+  font-size: 20px;
+  font-weight: 800;
+}
+.BtmCard1 aside main h4 {
+  display: flex;
+  align-items: center;
+}
+.BtmCard1 aside main h4 p {
+  height: 19px;
+  margin: 5px;
+}
+.ClassSubCard button {
+  padding: 4px 10px;
+  border-radius: 10px;
+  background-color: #302657;
+  color: white;
+}
+.ClassSubCard button:hover {
+  background-color: white;
+  color: black;
+  /* border: none; */
+  transition-duration: 600ms;
+  box-shadow: 0px 0px 4px 0px #302657;
+  cursor: pointer;
+}
+/* ! small card container */
+.FullStackCon {
+  margin: 20px;
+}
+.IconCon {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.IconCon .IconCard {
+  width: 85%;
+  height: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.IconCard div {
+  height: 20vh;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px #704dff;
+}
+.IconCard div p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.IconCard div button {
+  padding: 4px 15px;
+  border-radius: 10px;
+}
+.IconCard div a :hover {
+  background-color: #302657;
+  color: white;
+  cursor: pointer;
+  transition-duration: 600ms;
+}
+/* ! class card */
+.Scedule {
+  text-align: center;
+  padding: 50px;
+}
+.ClassCard {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+.ClassCard .ClassSubCard {
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ClassSubCard div {
+  height: inherit;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px 0px rgb(86, 86, 86);
+}
+.ClassSubCard .img1 {
+  width: 100%;
+  height: 40vh;
+}
+.ClassSubCard .img2 {
+  width: 120%;
+  height: 50vh;
+}
+.ClassSubCard aside {
+  width: 40%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ClassSubCard aside h1 {
+  font-size: 50px;
+}
+/* !  review container */
+.StudentReviews {
+  width: 100%;
+  text-align: center;
+  background-color: #302657;
+  color: white;
+}
+.ReviewCon {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ReviewSub {
+  width: 90%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ReviewSub div {
+  width: 20%;
+  height: 40vh;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px #302657;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.ReviewSub div img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background-color: black;
+}
+.ReviewBtn {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+.MoreReviews {
+  width: 100%;
+  text-align: center;
+  padding: 4px 10px;
+  border-radius: 10px;
+  background-color: #302657;
+  color: white;
+  cursor: pointer;
+}

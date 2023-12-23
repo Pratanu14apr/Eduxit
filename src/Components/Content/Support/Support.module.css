@@ -1,0 +1,122 @@
+.BackImg img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.hoverImg {
+  height: 117vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+}
+
+.HoverText h1 {
+  position: absolute;
+  top: 60vh;
+  left: 50%;
+  color: white;
+  font-size: 50px;
+  opacity: 0;
+  animation-name: para;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+@keyframes para {
+  100% {
+    opacity: 1;
+    top: 50vh;
+  }
+}
+
+.mainContainer {
+  width: 100%;
+}
+.mainContainer > article {
+  width: 95%;
+
+  margin: 0 auto;
+
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.part h2 {
+  color: rgb(183, 182, 182);
+  padding-top: 10px;
+}
+.container {
+  height: 250px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.icondiv {
+  height: 50px;
+
+  display: flex;
+  padding: 0 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+.icondiv figure img {
+  height: 50px;
+  width: 50px;
+}
+.quote {
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote h4 {
+  font-size: 20px;
+  margin-top: -20px;
+}
+.anchor {
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+}
+
+.anchor a {
+  text-decoration: none;
+  color: #4f6aab;
+}
+.anchor a:hover {
+  padding: 5px 7px;
+  background-color: transparent;
+  color: rgb(209, 45, 45);
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+.container .card {
+  flex-basis: 20%;
+
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin: 10px; */
+  gap: 10px;
+}
+
+.card figure img {
+  height: 100px;
+  width: 100px;
+}
+.all img {
+  height: 100px;
+  width: 150px;
+}

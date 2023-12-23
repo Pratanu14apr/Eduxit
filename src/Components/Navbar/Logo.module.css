@@ -1,0 +1,51 @@
+.LogoCon {
+  width: 100%;
+  height: 10vh;
+}
+.LogoCon .LogoSubCon {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 9vh;
+  font-weight: 800;
+  padding-left: 10px;
+}
+
+.Logo span {
+  width: 15%;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+.Search {
+  height: 6vh;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  position: relative;
+}
+.Search input {
+  height: 5vh;
+  font-size: 130%;
+  padding-left: 12%;
+  width: 150%;
+  border-radius: 100px;
+  border: 1px solid #d7d7d7;
+}
+.Search span {
+  color: #7c7c7c;
+  height: 23px;
+  position: absolute;
+  top: 13px;
+  left: 3%;
+  font-size: 130%;
+  display: flex;
+}
